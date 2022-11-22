@@ -20,3 +20,4 @@ jobs:
       - name: Copy to S3
         run: |
           aws s3 cp index.html s3://www.desmondgc.com/index.html
+          aws s3 cp favicon.ico s3://www.desmondgc.com/favicon.ico
